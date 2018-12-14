@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1050.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Exercice">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="88.0" prefHeight="488.0" prefWidth="108.0" style="-fx-background-color: #05071F;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="88.0">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/Connexion.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="50.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label text="Jean Mouloud" textFill="#e7e5e5">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="btnhome" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#Accueil" onMouseEntered="#Effethome" onMouseExited="#NoEffethome" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fffdfd">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/Accueil1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnmag" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#magazine" onMouseEntered="#Effetmag" onMouseExited="#NoEffetmag" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fcf9f9">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/Magazine1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnate" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#ateliers" onMouseEntered="#Effetate" onMouseExited="#NoEffetate" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fffafa">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/BoiteOutils1.PNG" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+          <Button fx:id="btnout" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#outils" onMouseEntered="#Effetout" onMouseExited="#NoEffetout" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fcf8f8">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/Outil1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+           <Button fx:id="btncompte" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#moncompte" onMouseEntered="#Effetcompte" onMouseExited="#NoEffetcompte" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/Identite1.PNG" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btndic" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#dictionnaires" onMouseEntered="#Effetdic" onMouseExited="#NoEffetdic" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fffafa">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/dictionary1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnpara" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#parametre" onMouseEntered="#Effetpara" onMouseExited="#NoEffetpara" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fcfcfc">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/parametre1.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnaide" alignment="BASELINE_LEFT" graphicTextGap="22.0" mnemonicParsing="false" onAction="#aide" onMouseEntered="#Effetaide" onMouseExited="#NoEffetaide" prefHeight="42.0" prefWidth="259.0" style="-fx-background-color: #05071F;" stylesheets="@style.css" textFill="#fffdfd">
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/LogoAIDE1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <Pane prefHeight="86.0" prefWidth="1050.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="52.0" fitWidth="58.0" layoutX="37.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/BarreMenu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="60.0" layoutX="962.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/Deconnexion.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="148.0" fitWidth="145.0" layoutX="96.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/E-glish.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="59.0" fitWidth="41.0" layoutX="776.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/Accueil.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="73.0" fitWidth="67.0" layoutX="866.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/Connexion.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="920.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IHM/drapeau_anglais_rond.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="108.0" layoutY="88.0" prefHeight="488.0" prefWidth="943.0" style="-fx-background-color: #c3d1e3;">
+         <children>
+            <Pane layoutX="71.0" layoutY="21.0" prefHeight="446.0" prefWidth="801.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutX="183.0" layoutY="30.0" text="Choisissez la bonne réponse">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="continuez3" layoutX="633.0" layoutY="384.0" mnemonicParsing="false" onAction="#exocouleurs3" prefHeight="32.0" prefWidth="122.0" text="Continuez" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="277.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IHM/couleurs/fleurjaune.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="222.0" layoutY="246.0" text="De quelle couleur est la Fleur?">
+                     <font>
+                        <Font size="22.0" />
+                     </font></Label>
+                  <RadioButton fx:id="qs1" layoutX="235.0" layoutY="331.0" mnemonicParsing="false" text="Yellow" toggleGroup="$exoc3">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="exoc3" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="qs2" layoutX="360.0" layoutY="331.0" mnemonicParsing="false" text="White" toggleGroup="$exoc3" />
+                  <RadioButton fx:id="qs3" layoutX="489.0" layoutY="331.0" mnemonicParsing="false" text="Pink" toggleGroup="$exoc3" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+   <effect>
+      <DropShadow color="#1b1eeb" />
+   </effect>
+</AnchorPane>
