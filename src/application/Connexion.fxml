@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Connexion">
+   <children>
+      <ImageView fitHeight="322.0" fitWidth="688.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IHM/FondIHMconnexion%20.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="150.0" layoutY="142.0" prefHeight="241.0" prefWidth="377.0" style="-fx-background-color: white; -fx-border-color: black;">
+         <children>
+            <Label layoutX="146.0" layoutY="125.0" text="Mot de passe" />
+            <Label layoutX="129.0" layoutY="62.0" text="Adresse email ou ID" />
+            <Button fx:id="btnconnexion" layoutX="132.0" layoutY="197.0" mnemonicParsing="false" onAction="#Accueil" prefHeight="25.0" prefWidth="99.0" text="Connexion" />
+            <TextField fx:id="id" layoutX="107.0" layoutY="79.0" />
+            <PasswordField layoutX="107.0" layoutY="142.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="193.0" fitWidth="220.0" layoutX="211.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IHM/LogoFinalEglish.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="471.0" layoutY="30.0" text="Inscription" textFill="WHITE" />
+      <Label layoutX="547.0" layoutY="30.0" text="Mot de passe oublie?" textFill="WHITE" />
+      <Separator layoutX="535.0" layoutY="30.0" orientation="VERTICAL" prefHeight="17.0" prefWidth="0.0" />
+   </children>
+</Pane>
